@@ -1,0 +1,10 @@
+<div id="container">
+    <div *ngfor=" let Category of Categories" id="cards">
+        <div id="id">
+            <img [src]="Category.image" alt="">
+        </div>
+        <div id="title">
+            <h3>{{Category.valor}}</h3>
+        </div>
+    </div>
+</div>
